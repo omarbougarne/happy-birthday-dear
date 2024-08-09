@@ -28,7 +28,7 @@ body {
   position: absolute;
   top: 30px;
   font-size: 45px;
-  color: white;
+  color: rgb(244, 191, 243);
   z-index: 999;
   font-family: 'Playwrite CU', Arial, sans-serif;
 }
@@ -43,6 +43,7 @@ body {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  background-color: #eaeaea;
 }
 
 .reloadBtn:hover {
@@ -1073,7 +1074,7 @@ body {
 .long-g .leaf {
   --w: 15vmin;
   --h: 40vmin;
-  --c: #1aaa15;
+  --c: #48d2cd;
   position: absolute;
   bottom: 0;
   width: var(--w);
