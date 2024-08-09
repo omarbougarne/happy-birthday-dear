@@ -35,7 +35,7 @@ body {
 
 .reloadBtn {
   position: absolute;
-  top: 110px;
+  top: 350px;
   z-index: 999;
   padding: 8px 30px;
   font-size: 18px;
@@ -1257,3 +1257,10 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+/* @media only screen and (max-width: 375px) {
+  .reloadBtn {
+    position: relative; 
+    margin-top: 50px; 
+  }
+} */
